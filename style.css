@@ -5,9 +5,15 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
-    color: #ccc;
-    background-color: #000;
+  background-color: black;
+  color: #55ff55;
+  font-family: monospace;
+}
+.output {
+  color: white;
+}
+.active:after {
+  content: '_';
 }
 
 .container {
